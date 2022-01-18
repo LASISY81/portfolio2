@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,200;1,300&display=swap');
 
 
-.{
+*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -21,7 +21,7 @@ html{
     border: 1px solid red;
 }
 .header-title{
-    color var (--first-color);
+    color : var(--first-color);
 
 }
 .navbar{
@@ -60,3 +60,4 @@ a{
     border-radius: 50%;
     object-fit: cover;
     border: 2px white;
+}
